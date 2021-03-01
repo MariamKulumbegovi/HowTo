@@ -1,0 +1,239 @@
+body {
+	overflow-x: hidden;
+
+}
+.margin {
+	margin:52px 140px 0px 140px;
+}
+.container {
+	max-width: 1640px;
+	width: 100%;
+}
+.header-wrapper {
+	max-width: 1640px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+
+}
+.ul-bar{
+	width: 810px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	
+}
+.navbar-li > a {
+	font-size: 20px;
+	font-family: 'ArchyEDT-Bold';
+	color: #707070;
+}
+.section2 {
+	margin-top: 60px;
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	height: 613px;
+	width: 100%;
+}
+.section3  {
+	margin-top: 145px;
+}
+.satauri1 {
+	font-size: 40px;
+	font-family: 'ArchyEDT-Bold';
+	color: #707070;
+
+}
+.articles {
+	margin-top: 70px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.adjust {
+	max-width: 350px;
+	width: 100%;
+}
+.statia {
+	padding: 13px;
+}
+.satauri2 {
+	font-size: 30px;
+	font-family: 'ArchyEDT-Bold';
+	color: #707070;
+	margin:30px 0 33px 0;
+}
+.article-content {
+	font-size: 18px;
+	font-family: 'BPG Algeti';
+	color: #707070;
+}
+.more {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	font-size: 24px;
+	font-family: 'ArchyEDT-Bold';
+	color: #707070;
+	margin:85px 0 35px 0;
+}
+.box {
+	background-color: #FFFFFF;
+	-webkit-box-shadow:0px 4px 1px 1px #cccccc8c;
+	        box-shadow:0px 4px 1px 1px #cccccc8c;
+
+}
+.section4 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 65px;
+}
+.info {
+	font-size: 30px;
+	color: #707070;
+	border-bottom: solid; border-color: #d0d0d0; border-width:0.5px; 
+}
+.section5 {
+	margin-top: 50px;
+}
+.footer-wrapper {
+	max-width: 1920px;
+	width: 100%;
+	height: 206px;
+	background-color: #2E2E2E;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	margin-top:68px;
+	margin-bottom: -25px;
+
+}
+.footer-logo {
+	width: 122px;
+	height: 95px;
+}
+.contact {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	color: #F2F2F2;
+	font-size: 13px;
+	font-family: 'ArchyEDT-Bold';
+}
+.satauri3 {
+	font-size: 20px;
+}
+.satauri4 {
+	font-size: 19px;
+}
+.icons {
+	width:43.95px;
+	height: 43.95px;
+}
+.instaicon {
+	margin-left: 33px;
+}
+.line-height {
+	line-height: 1.2;
+}
+
+@media screen and (max-width:1367px) {
+	.margin {
+		margin:0;
+	}
+	.navbar-li {
+		display: none;
+	}
+	.header-wrapper {
+		width: 100%;
+		position: relative;
+		top: 10px;
+	}
+	.header-logo {
+		width: 46px;
+		height: 35px;
+		position: absolute;
+		left: 5%;
+		
+	}
+	.search-icon {
+		position: absolute;
+		right: 5%;
+	}
+	.section2 {
+		background-image: url(../images/banner2.jpg);
+		background-size: cover;
+		background-position: center;
+		min-height: 253px;
+		height: 100%;
+	}
+	.articles {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.satauri1 {
+		text-align: center;
+		font-size: 15px;
+	}
+	.footer-logo {
+		display: none;
+	}
+	.footer-wrapper {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		text-align: center;
+
+	}
+	.contact {
+
+	}
+	.icons {
+		width: 16.91px;
+		height: 16.91px;
+	}
+	.info {
+		font-size: 9px;
+	}
+
+	
+}
